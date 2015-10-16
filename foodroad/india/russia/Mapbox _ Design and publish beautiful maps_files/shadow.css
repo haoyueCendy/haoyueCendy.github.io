@@ -1,0 +1,219 @@
+#SLlogo,#SL_shadow_button{
+	background:url('chrome://imtranslator/skin/imtranslator-s.png') top left no-repeat;
+	height:24px;
+	width:24px;
+	position:absolute;
+}
+#SLlogo{
+	position:relative;
+}
+
+#SL_tts{
+	background:url('chrome://imtranslator/skin/tts-voice.png') top left no-repeat;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+        margin-left:8px;
+}
+
+
+#SLDONATE{
+	background:url('chrome://imtranslator/skin/donate2.png') top left no-repeat;
+	position:absolute;
+	height:14px;
+	width:64px;
+	cursor:pointer;
+	margin-top:5px;
+	margin-left:3px;
+}
+#SL_sel_source{margin-left:25px;width:300px;}
+
+.SL_copy,.SL_copy_auto{
+	background:url('chrome://imtranslator/skin/copy.png') top left no-repeat;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}
+.SL_copy_auto{
+	background:url('chrome://imtranslator/skin/copy_auto.png') top left no-repeat;
+}
+#SL_switch{
+	background:url('chrome://imtranslator/skin/switch.png') top left no-repeat;
+	height:10px;
+	width:10px;
+	cursor:pointer;
+	margin-left:3px;
+	margin-right:2px;
+}
+
+
+.SL_pin_off,.SL_pin_on {
+	background:url('chrome://imtranslator/skin/pin-off.png') top left no-repeat;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+	margin-left:8px;
+}
+.SL_pin_on {
+	background:url('chrome://imtranslator/skin/pin-on.png') top left no-repeat;
+	margin-top:-3px;
+}
+
+.SL_font_off,.SL_font_on {
+	background:url('chrome://imtranslator/skin/font-on.png') top left no-repeat;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}
+.SL_font_off {
+	background:url('chrome://imtranslator/skin/font-off.png') top left no-repeat;
+}
+
+
+.SL_small_options_switch_on,.SL_small_options_switch_off{
+	background:url('chrome://imtranslator/skin/options-off.png') top left no-repeat;
+	height:16px;
+	width:94px;
+	margin-left:256px;
+	cursor:pointer;
+}
+.SL_small_options_switch_on{
+	background:url('chrome://imtranslator/skin/options-on.png') top left no-repeat;
+}
+.SL_small_tooltips_switch_on,.SL_small_tooltips_switch_off{
+	background:url('chrome://imtranslator/skin/tooltips-off.png') top left no-repeat;
+	height:16px;
+	width:94px;
+	margin-top:-12px;
+	cursor:pointer;
+	position:absolute;
+}
+
+.SL_small_tooltips_switch_on{
+	background:url('chrome://imtranslator/skin/tooltips-on.png') top left no-repeat;
+}
+
+#SLtopbar {padding:1px;margin:1px;width:390px;height:25px;}
+#SLonoffTEXT{color:green;font-size:10px;}
+#SLonoff{ width:0;height:0;}
+#SL_shadow_balloon{
+ font-family:Verdana,Sans-serif;
+ width:400px;
+ top:-1000px;
+ left:-1000px;
+ font-size:12px;
+ background:#FFF;
+ border:1px solid #BAB9B5;
+ border-radius:5px 5px 5px 5px;
+ position:absolute;
+ z-index:999999999999999;
+ box-shadow:5px 5px 15px #BAB9B5;
+ direction:ltr;text-align:left;unicode-bidi:bidi-override;
+}
+#SL_shadow_button{cursor:pointer;top:100px;left:100px;opacity:0.5;z-index:9999;}
+#SLplanshet,#SLplanshetBottom{
+ width:400px;
+ cursor:move;
+ height:28px;
+ margin-left:-1px;
+ margin-top:-1px;
+ font-size:12px;
+ background:url('chrome://imtranslator/skin/bg2.png');
+ border:1px solid #BAB9B5;
+ border-radius:5px 5px 0px 0px;
+ z-index:999999999;
+ position:relative;
+}
+#SLplanshetBottom{
+ background:url('chrome://imtranslator/skin/bg3.png');
+ border-radius:0px 0px 5px 5px;
+ height:24px;
+ border:0px;
+ margin-left:0px;
+ margin-top:0px;
+}
+
+#SLarrowTOP,#SLarrowBOT{
+ display:block;
+ position:absolute;
+ left:190px;
+ width:0;
+ height:0;
+ border-color:transparent transparent #EEEFF0 transparent; 
+ border-style:solid;
+ border-width:10px;
+ border-radius:10;
+}
+#SLtriggerKey{
+ background:url('chrome://imtranslator/skin/triggerkey.png') top left no-repeat;
+ width:13px;
+ height:10px;
+ margin-left:28px;
+}
+
+#SLarrowTOP{top:-20px;}
+#SLarrowBOT{border-color:#E2E7FC transparent transparent transparent;}
+#SLto,#SLfrom,#SLcontrols,#SL_tip{min-width:100px;margin:0;padding:0;font-family:Verdana,Sans-serif;color:#000;font-size:11px;font-weight:400;}
+#SLto,#SLfrom{min-height:20px;background:#fff;border:1px solid #bababa;}
+
+
+#SL_result{
+ position:relative;
+ text-align:left;
+ font-family:Verdana,Sans-serif;
+ color:#000;
+ font-size:12px;
+ line-height:16px;
+ padding:8px;
+ z-index:999999999;
+ width:96%;
+ max-height:200px;
+ min-height:40px;
+ overflow-y:auto;
+ -moz-hyphens:auto;
+ word-break:normal;
+ background:url('chrome://imtranslator/skin/bg.png');
+}
+#SLcontrols{width:98%;text-align:left;margin-left:8px;margin-top:8px; font-size:11px;}
+#SL_tip,#SL_small_tooltips{color:red; margin:8px;font-size:10px;width:98%;text-align:left;}
+#SLoptionsKey{width:60px;height:20px;margin:0px;padding:0px;}
+#SL_select_patch,#SL_select2_patch{
+ background:url('chrome://imtranslator/skin/patch.png') top left repeat;width:65px;height:18px;margin-left:-1px;margin-top:-1px;position:absolute;z-index:9999;
+}
+#SL_select2_patch{
+ margin-left:155px;
+ width:150px;
+ margin-top:-17px;
+}
+.SLtable,.SLtable2,.SLtd{font-size:11px;font-family:Verdana,Sans-serif;color:#000;margin:0px;padding:0px;border:0px;height:16px;vertical-align:middle;text-align:center;}
+.SLtable2{width:180px;}
+.SLaligner,.SLaligner2{height:18px;margin:3px;font-family:Verdana,Sans-serif;color:#000;font-size:11px;text-align:left;}
+.SLaligner2{width:80px;white-space:nowrap}
+.SLselectbox,#SLoptionsKey{font-size:10px; height:16px;font-family:Verdana,Sans-serif;color:#000;border:1px solid #bababa;font-weight:400;background:#fff;width:95px;}
+#SLspacer{height:20px;margin-bottom:5px;margin-top:-3px;text-align:left;}
+.SL_sesultLTRRTL{direction:ltr;text-align:left;unicode-bidi:bidi-override;}
+
+#SL_save_options,#SL_save_options:hover{position:absolute;margin-left:30px;width:55px;text-align:center;cursor:pointer;
+ border-bottom:1px solid #252322;
+ border-right:1px solid #252322;
+ border-left:1px solid #918F85;
+ border-top:1px solid #918F85;
+ border-radius:2px 2px 2px 2px;
+ font-size:14px;
+ color:black;
+ background:#ECE9D8;
+ font-weight:bold;
+}
+#SL_save_options:hover{
+ border-top:1px solid #252322;
+ border-left:1px solid #252322;
+ border-right:1px solid #918F85;
+ border-bottom:1px solid #918F85;
+}
+
+#SLloc{position:absolute;margin-top:-6px;margin-left:-1px;}
+#SL_Goptions,#SL_Ghelp,#SL_Gfeedback{position:absolute; margin-top:5px;margin-left:245px;font-size:11px;cursor:pointer;color:#1284B8;}
+#SL_Ghelp{margin-left:302px;}
+#SL_Gfeedback{margin-left:340px;}
+#SL_dots1,#SL_dots2{position:absolute;color:#000;margin-top:4px;margin-left:293px;}
+#SL_dots2{position:absolute;color:#000;margin-top:4px;margin-left:331px;}
